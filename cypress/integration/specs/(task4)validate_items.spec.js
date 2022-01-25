@@ -17,7 +17,7 @@ function loadMainCategoryItems() {
             loadMainCategoryItems()
         }
     })
-}
+} 
 
 function loadOtherCategoriesItems() {
     cy.get('[href*="prod.html?idp_="][class]').each((item)=> {
